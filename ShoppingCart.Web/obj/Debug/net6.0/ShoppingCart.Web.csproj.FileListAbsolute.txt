@@ -576,3 +576,10 @@ C:\.NET\ShoppingCart\ShoppingCart.Web\obj\Debug\net6.0\ShoppingCart.Web.pdb
 C:\.NET\ShoppingCart\ShoppingCart.Web\obj\Debug\net6.0\ShoppingCart.Web.genruntimeconfig.cache
 C:\.NET\ShoppingCart\ShoppingCart.Web\obj\Debug\net6.0\ref\ShoppingCart.Web.dll
 C:\.NET\ShoppingCart\ShoppingCart.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutFE.cshtml.rz.scp.css
+C:\.NET\ShoppingCart\ShoppingCart.Web\bin\Debug\net6.0\Azure.Core.dll
+C:\.NET\ShoppingCart\ShoppingCart.Web\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\.NET\ShoppingCart\ShoppingCart.Web\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\.NET\ShoppingCart\ShoppingCart.Web\bin\Debug\net6.0\System.ClientModel.dll
+C:\.NET\ShoppingCart\ShoppingCart.Web\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\.NET\ShoppingCart\ShoppingCart.Web\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\.NET\ShoppingCart\ShoppingCart.Web\bin\Debug\net6.0\System.Memory.Data.dll
