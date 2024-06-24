@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using ShoppingCart.Business.Repositories;
 using NuGet.Protocol.Core.Types;
 using Azure.Storage.Blobs;
+using System.Configuration;
+using NuGet.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+builder.Services.AddScoped(serviceProvider => new BlobServiceClient(builder.Configuration.GetValue<string>("AzureBlobStorageConnection")));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IBlobRepository, BlobRepository>();
 
