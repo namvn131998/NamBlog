@@ -12,7 +12,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped(serviceProvider => new BlobServiceClient("DefaultEndpointsProtocol=https;AccountName=namvnstorage;AccountKey=3LjRglhRy1x16i7RxYhu1yJ1Ty0NRilp3f6Vyb2/UDRNivdQo/UkoxLBgEdstxD6Nk15HPwiB6+5+AStJhh7hA==;EndpointSuffix=core.windows.net"));
+//builder.Services.AddScoped(serviceProvider => new BlobServiceClient("DefaultEndpointsProtocol=https;AccountName=namvnstorage;AccountKey=3LjRglhRy1x16i7RxYhu1yJ1Ty0NRilp3f6Vyb2/UDRNivdQo/UkoxLBgEdstxD6Nk15HPwiB6+5+AStJhh7hA==;EndpointSuffix=core.windows.net"));
 builder.Services.AddScoped<IBlobRepository, BlobRepository>();
 
 builder.Services.AddDistributedMemoryCache();
