@@ -30,5 +30,10 @@ namespace ShoppingCart.Business.Repositories
 
             return blobClient.Uri.AbsoluteUri;
         }
+        public void DeleteFileBlobStorage(string fileName)
+        {
+            var blobClient = _blobContainerClient.GetBlobClient(fileName);
+            blobClient.DeleteIfExists();
+        }
     }
 }

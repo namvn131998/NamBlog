@@ -23,11 +23,11 @@ namespace ShoppingCart.Business.Repositories
             var uploadfiles = _context.UploadFiles.Where(u => numbersList.Contains(u.MediaID) && u.FileName == fileName).ToList();
             return uploadfiles;
         }
-        public string GetThumbnailFromUploadFile(string mediaIDs, string host)
+        public string GetThumbnailFromUploadFile(string mediaIDs)
         {
             List<int> numbersList = Commons.ConvertStringToList(mediaIDs);
             var uploadfile = _context.UploadFiles.FirstOrDefault(u => numbersList.Contains(u.MediaID)) ?? new UploadFile();
-            return host + uploadfile.Thumbnail;
+            return uploadfile.Thumbnail;
         }
         public List<UploadFile> GetThumbnailsFromUploadFile(string mediaIDs)
         {

@@ -9,7 +9,6 @@
 @{
     CategoryVM categoryVM = new CategoryVM();
     categoryVM.categories = _unitOfWork.CategoryRepository.GetAll();
-    string host = ViewBag.Host;
 }
 
 <style>
@@ -36,7 +35,7 @@
             <td>@item.Name</td>
             <td>
                 
-                <img src="@_unitOfWork.UploadFileRepository.GetThumbnailFromUploadFile(item.MediaIds,host)">
+                <img src="@_unitOfWork.UploadFileRepository.GetThumbnailFromUploadFile(item.MediaIds)">
             </td>
             <td>@item.Description</td>
             <td>@item.Price</td>

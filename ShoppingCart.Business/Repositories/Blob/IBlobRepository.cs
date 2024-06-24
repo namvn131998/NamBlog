@@ -14,5 +14,6 @@ namespace ShoppingCart.Business.Repositories
     public interface IBlobRepository
     {
         Task<string> UploadFileToBlobStorage(string filePath, string fileName);
+        void DeleteFileBlobStorage(string fileName);
     }
 }

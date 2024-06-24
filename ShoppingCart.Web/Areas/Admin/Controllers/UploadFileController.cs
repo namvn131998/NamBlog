@@ -20,21 +20,16 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
     {
 
         private IUnitOfWork _unitOfWork;
+        private IBlobRepository _blobRepository;
         private HttpContextAccessor httpContextAccessor = new HttpContextAccessor();
-        public UploadFileController(IUnitOfWork unitOfWork)
+        public UploadFileController(IUnitOfWork unitOfWork, IBlobRepository blobRepository)
         {
             _unitOfWork = unitOfWork;
-        }
-        public string GetHostName()
-        {
-            var host = HttpContext.Request.Host.ToString();
-            host = Commons.GetPathImage(host);
-            return host;
+            _blobRepository = blobRepository;
         }
         [HttpGet]
         public IActionResult ShowUploadFile(string isProduct, int productID)
         {
-            ViewBag.Host = GetHostName();
             ViewBag.isProduct = isProduct;
             ViewBag.productID = productID;
             return PartialView("_ShowUploadFile");
@@ -57,13 +52,12 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             {
                 return NotFound();
             }
+            _blobRepository.DeleteFileBlobStorage(FileName);
             _unitOfWork.UploadFileRepository.Delete(uploadfile);
             _unitOfWork.Save();
             // get rootFolder of image
             var folderHost = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-            string userFolder = $"UserID-{userID}/ProductID-{productID}";
-            var folderMedia = (MediaType)1;
-            var pathFolderMedia = Path.Combine("Upload", userFolder, folderMedia.ToString());
+            var pathFolderMedia = Path.Combine("Upload");
             var rootFolder = Path.Combine(folderHost, pathFolderMedia);
             try
             {
@@ -124,26 +118,26 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
         private async Task<Result> SaveThumbnail(IFormFile file, string folderHost, int userID, string userFolder, int MediaTypeID, int UploadTypeID, int productID)
         {
             var result = new Result();
-            var folderMedia = (MediaType)MediaTypeID;
-            var pathFolderMedia = Path.Combine("Upload", userFolder, folderMedia.ToString());
+            var pathFolderMedia = Path.Combine("Upload");
             var fullpathFolderMedia = Path.Combine(folderHost, pathFolderMedia);
             if (!Directory.Exists(fullpathFolderMedia))
             {
                 Directory.CreateDirectory(fullpathFolderMedia);
             }
-            var fullPathFile = Path.Combine(fullpathFolderMedia, file.FileName);
-            using (var stream = new FileStream(fullPathFile, FileMode.Create))
+            var PathFile = Path.Combine(fullpathFolderMedia, file.FileName);
+            using (var stream = new FileStream(PathFile, FileMode.Create))
             {
                 await file.CopyToAsync(stream);
             }
+            string fileName = String.Format("{0}/{1}", userFolder, file.FileName);
+            var uploadBlob = _blobRepository.UploadFileToBlobStorage(PathFile, fileName);
             var isExist = CheckExistMedia(file.FileName, productID);
             if (!isExist)
             {
-                var pathFile = Path.Combine(pathFolderMedia, file.FileName).Replace(@"\", "/");
                 var uploadfile = new UploadFile
                 {
                     FileName = file.FileName,
-                    Thumbnail = pathFile,
+                    Thumbnail = uploadBlob.Result,
                     UploadDate = DateTime.Now,
                     MediaTypeID = MediaTypeID,
                     UploadTypeID = UploadTypeID,

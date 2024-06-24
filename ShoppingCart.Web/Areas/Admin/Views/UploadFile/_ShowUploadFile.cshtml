@@ -10,7 +10,6 @@
     List<UploadFile> ListThumbnail = new List<UploadFile>();
     string mediaids = _unitOfWork.ProductRepository.GetT(p => p.Id == productID).MediaIds;
     ListThumbnail = _unitOfWork.UploadFileRepository.GetThumbnailsFromUploadFile(mediaids);
-    var host = ViewBag.Host;
     
 }
 <form id="addMediaFileProduct" enctype="multipart/form-data" asp-controller="Product" asp-action="AddListThumbnail">
@@ -25,11 +24,10 @@
                     
         foreach(var item in ListThumbnail)
         {
-            item.Thumbnail = host + item.Thumbnail;
             @Html.Hidden("UserID", item.UserID)
             <div class="list-media-item m-2" data-mediaID = "@item.MediaID">
                 <img src="@item.Thumbnail"/>
-                    <a onclick="ProductJS.DeleteMedia(@item.MediaID, '@item.FileName', productID); return false;"><i class="fa-solid fa-xmark"></i></a>
+                    <a onclick="ProductJS.DeleteMedia(@item.MediaID, '@item.FileName', @productID); return false;"><i class="fa-solid fa-xmark"></i></a>
             </div>
         }
     }

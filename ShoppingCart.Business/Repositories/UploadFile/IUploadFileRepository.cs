@@ -10,7 +10,7 @@ namespace ShoppingCart.Business.Repositories
 {
     public interface IUploadFileRepository : IRepository<UploadFile>
     {
-        string GetThumbnailFromUploadFile(string mediaIDs, string host = "");
+        string GetThumbnailFromUploadFile(string mediaIDs);
         List<UploadFile> GetThumbnailsFromUploadFile(string mediaIDs);
         List<UploadFile> GetListMediaByProductMediaIDs(string mediaids, string FileName);
     }

@@ -9,7 +9,6 @@
     List<UploadFile> ListThumbnail = new List<UploadFile>();
     if (Model.Id > 0)
         ListThumbnail = _unitOfWork.UploadFileRepository.GetThumbnailsFromUploadFile(Model.MediaIds);
-    var host = ViewBag.Host;
     List<SelectListItem> CategoryItems = new List<SelectListItem>();
     CategoryItems.AddRange(ListCategory.Select(x => new SelectListItem()
             {
@@ -67,7 +66,6 @@
                     
                     foreach(var item in ListThumbnail)
                     {
-                        item.Thumbnail = host + item.Thumbnail;
                         @Html.Hidden("UserID", item.UserID)
                         <div class="list-media-item m-2">
                             <img src="@item.Thumbnail"/>
