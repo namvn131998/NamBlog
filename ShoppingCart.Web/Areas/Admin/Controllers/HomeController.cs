@@ -5,6 +5,7 @@ using ShoppingCart.DataAccess.Constants.Enums;
 using ShoppingCart.Business.Utilities;
 using ShoppingCart.DataAccess.Helper;
 using ShoppingCart.Business.Repositories;
+using Microsoft.CodeAnalysis;
 
 namespace ShoppingCart.Web.Areas.Admin.Controllers
 {
@@ -12,9 +13,11 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
     public class HomeController : Controller
     {
         private IUnitOfWork _unitOfWork;
-        public HomeController(IUnitOfWork unitOfWork)
+        private IBlobRepository _blobRepository;
+        public HomeController(IUnitOfWork unitOfWork, IBlobRepository blobRepository)
         {
             _unitOfWork = unitOfWork;
+            _blobRepository = blobRepository;   
         }
         public IActionResult Index()
         {
@@ -98,12 +101,6 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
         public IActionResult Profile(int UserID)
         {
             var model = _unitOfWork.RegistrationRepository.GetUserByID(UserID);
-            if (model != null)
-            {
-                var uploadFile = _unitOfWork.UploadFileRepository.GetT(u => u.UserID == UserID && u.UploadTypeID == (int)UploadType.User);
-                if (uploadFile != null)
-                    model.Photo = GetHostName() + uploadFile.Thumbnail;
-            }
             return View(model);
         }
         [HttpGet]
@@ -135,11 +132,52 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             var model = _unitOfWork.RegistrationRepository.GetUserByID(reg.UserID);
             return RedirectToAction("Profile", model);
         }
-        public string GetHostName()
-        {
-            var host = HttpContext.Request.Host.ToString();
-            host = Commons.GetPathImage(host);
-            return host;
+        [HttpPost]
+        public async Task<Result> UploadUserAvatar( int userID, int productID, IFormFile files, int MediaTypeID)
+        { 
+            var result = new Result();
+            var folderHost = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            var userFolder = $"UserID-{userID}/Avatar";
+            var pathFolderMedia = Path.Combine("Upload");
+            var fullpathFolderMedia = Path.Combine(folderHost, pathFolderMedia);
+            if (!Directory.Exists(fullpathFolderMedia))
+            {
+                Directory.CreateDirectory(fullpathFolderMedia);
+            }
+            var LocalPathFile = Path.Combine(fullpathFolderMedia, files.FileName);
+            using (var stream = new FileStream(LocalPathFile, FileMode.Create))
+            {
+                await files.CopyToAsync(stream);
+            }
+            string PathfileName = String.Format("{0}/{1}", userFolder, files.FileName);
+            var isExist = _blobRepository.IsExistBlob(PathfileName);
+            if (!isExist)
+            {
+                var uploadBlob = _blobRepository.UploadFileToBlobStorage(LocalPathFile, PathfileName);
+                // get rootFolder of image
+                try
+                {
+                    // Check if file exists with its full path
+                    if (System.IO.File.Exists((Path.Combine(fullpathFolderMedia, files.FileName))))
+                    {
+                        // If file found, delete it
+                        System.IO.File.Delete(Path.Combine(fullpathFolderMedia, files.FileName));
+                    }
+                }
+                catch (IOException ioExp)
+                {
+                }
+                result.value = "OK";
+                result.fileName = files.FileName;
+                result.UrlThumbnail = uploadBlob.Result;
+                return result;
+            }
+            else
+            {
+                result.fileName = files.FileName;
+                result.value = "Fail";
+                return result;
+            }
         }
     }
 }

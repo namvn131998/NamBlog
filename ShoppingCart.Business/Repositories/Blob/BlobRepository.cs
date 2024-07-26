@@ -35,5 +35,11 @@ namespace ShoppingCart.Business.Repositories
             var blobClient = _blobContainerClient.GetBlobClient(fileName);
             blobClient.DeleteIfExists();
         }
+        public bool IsExistBlob(string fileName)
+        {
+            var blobClient = _blobContainerClient.GetBlobClient(fileName);
+            var result = blobClient.Exists();
+            return result;
+        }
     }
 }

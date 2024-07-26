@@ -4,7 +4,7 @@
         List: SiteConfig.gSiteAdrs + "/Product/_List",
         ShowUploadFile: SiteConfig.gSiteAdrs + "/UploadFile/ShowUploadFile",
         CreateOrUpdate: SiteConfig.gSiteAdrs + "/Product/CreateOrUpdate",
-        SubmitAddFileProduct: SiteConfig.gSiteAdrs + "/UploadFile/AddListThumbnail",
+        SubmitAddFileProduct: SiteConfig.gSiteAdrs + "/UploadFile/AddListProductThumbnail",
         ShowListMedia: SiteConfig.gSiteAdrs + "/UploadFile/ShowListMedia",
         DeleteMedia: SiteConfig.gSiteAdrs + "/UploadFile/DeleteMedia",
     },
@@ -68,12 +68,11 @@
             }
         })
     },
-    SubmitAddFileProduct: function (MediaTypeID, UploadTypeID) {
+    SubmitAddFileProduct: function (MediaTypeID) {
         var data = new FormData($('#addMediaFileProduct')[0]);
         var productID = $("#productID").val();
         data.append("productID", productID);
         data.append("MediaTypeID", MediaTypeID);
-        data.append("UploadTypeID", UploadTypeID);
         if ($("#addMediaFileProduct").valid()) {
             $.ajax({
                 url: ProductJS.urls.SubmitAddFileProduct,

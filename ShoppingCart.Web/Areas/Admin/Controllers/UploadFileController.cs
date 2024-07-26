@@ -28,7 +28,7 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             _blobRepository = blobRepository;
         }
         [HttpGet]
-        public IActionResult ShowUploadFile(string isProduct, int productID)
+        public IActionResult ShowUploadFile(string isProduct = "false" , int productID = 0)
         {
             ViewBag.isProduct = isProduct;
             ViewBag.productID = productID;
@@ -48,48 +48,24 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
         public IActionResult DeleteMedia(int mediaid, int userID, string FileName = "", int productID = 0)
         {
             var uploadfile = _unitOfWork.UploadFileRepository.GetT(x => x.MediaID == mediaid);
+            // split Thumbnail to get pathFile.
+            string pathFile = uploadfile.Thumbnail.Split("namvucontainer/")[1];
             if (uploadfile == null)
             {
                 return NotFound();
             }
-            _blobRepository.DeleteFileBlobStorage(FileName);
+            _blobRepository.DeleteFileBlobStorage(pathFile);
             _unitOfWork.UploadFileRepository.Delete(uploadfile);
             _unitOfWork.Save();
-            // get rootFolder of image
-            var folderHost = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-            var pathFolderMedia = Path.Combine("Upload");
-            var rootFolder = Path.Combine(folderHost, pathFolderMedia);
-            try
-            {
-                // Check if file exists with its full path
-                if (System.IO.File.Exists((Path.Combine(rootFolder, FileName))))
-                {
-                    // If file found, delete it
-                    System.IO.File.Delete(Path.Combine(rootFolder, FileName));
-                }
-            }
-            catch (IOException ioExp)
-            {
-            }
             return Json(new { result = "OK" });
         }
         [HttpPost]
-        public async Task<IActionResult> AddListThumbnail(List<IFormFile> files, int userID, int productID, int MediaTypeID , int UploadTypeID)
+        public async Task<IActionResult> AddListProductThumbnail(List<IFormFile> files, int userID, int productID, int MediaTypeID)
         {
             int mediaID = 0;
             var mediaids = _unitOfWork.ProductRepository.GetT(p => p.Id == productID).MediaIds; 
-            string userFolder = "";
             var folderHost = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-            switch (UploadTypeID)
-            {
-                case (int)UploadType.User:
-                    userFolder = $"UserID-{userID}/Avatar";
-                    
-                    break;
-                case (int)UploadType.Product:
-                    userFolder = $"UserID-{userID}/ProductID-{productID}";
-                    break;
-            }
+            var userFolder = $"UserID-{userID}/ProductID-{productID}";
             foreach (IFormFile file in files)
             {
                 if (file.Length > 0)
@@ -97,7 +73,7 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
                     var extensionFile = Path.GetExtension(file.FileName);
                     if (extensionFile == ".jpg" || extensionFile == ".png")
                     {
-                        var result = await SaveThumbnail(file, folderHost, userID, userFolder, MediaTypeID, UploadTypeID,productID);
+                        var result = await SaveProductThumbnail(file, folderHost, userID, userFolder, MediaTypeID,productID);
                         mediaID = result.id;
                         if(result.value == "OK")
                         {
@@ -115,7 +91,7 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             _unitOfWork.Save();
             return Json(new Result() {value = "OK"});
         }
-        private async Task<Result> SaveThumbnail(IFormFile file, string folderHost, int userID, string userFolder, int MediaTypeID, int UploadTypeID, int productID)
+        private async Task<Result> SaveProductThumbnail(IFormFile file, string folderHost, int userID, string userFolder, int MediaTypeID, int productID)
         {
             var result = new Result();
             var pathFolderMedia = Path.Combine("Upload");
@@ -124,25 +100,37 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             {
                 Directory.CreateDirectory(fullpathFolderMedia);
             }
-            var PathFile = Path.Combine(fullpathFolderMedia, file.FileName);
-            using (var stream = new FileStream(PathFile, FileMode.Create))
+            var LocalPathFile = Path.Combine(fullpathFolderMedia, file.FileName);
+            using (var stream = new FileStream(LocalPathFile, FileMode.Create))
             {
                 await file.CopyToAsync(stream);
             }
-            string fileName = String.Format("{0}/{1}", userFolder, file.FileName);
-            var uploadBlob = _blobRepository.UploadFileToBlobStorage(PathFile, fileName);
-            var isExist = CheckExistMedia(file.FileName, productID);
+            string PathfileName = String.Format("{0}/{1}", userFolder, file.FileName);
+            var isExist = _blobRepository.IsExistBlob(PathfileName);
             if (!isExist)
             {
+                var uploadBlob = _blobRepository.UploadFileToBlobStorage(LocalPathFile, PathfileName);
                 var uploadfile = new UploadFile
                 {
                     FileName = file.FileName,
                     Thumbnail = uploadBlob.Result,
                     UploadDate = DateTime.Now,
                     MediaTypeID = MediaTypeID,
-                    UploadTypeID = UploadTypeID,
                     UserID = userID
                 };
+                // get rootFolder of image
+                try
+                {
+                    // Check if file exists with its full path
+                    if (System.IO.File.Exists((Path.Combine(fullpathFolderMedia, file.FileName))))
+                    {
+                        // If file found, delete it
+                        System.IO.File.Delete(Path.Combine(fullpathFolderMedia, file.FileName));
+                    }
+                }
+                catch (IOException ioExp)
+                {
+                }
                 _unitOfWork.UploadFileRepository.Add(uploadfile);
                 _unitOfWork.Save();
                 result.id = uploadfile.MediaID;
@@ -156,19 +144,6 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
                 result.value = "Fail";
                 return result;
             }
-        }
-        public bool CheckExistMedia(string FileName, int productID)
-        {
-            var isExist = true;
-            var mediaids = _unitOfWork.ProductRepository.GetT(x => x.Id == productID).MediaIds;
-
-            var uploadFile = _unitOfWork.UploadFileRepository.GetListMediaByProductMediaIDs(mediaids, FileName);
-
-            if (uploadFile.Count == 0) 
-            {
-                isExist = false;
-            }
-            return isExist;
         }
     }
 }

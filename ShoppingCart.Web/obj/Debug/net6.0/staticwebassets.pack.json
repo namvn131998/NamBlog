@@ -1,323 +1,323 @@
 {
   "Files": [
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingCart.Web.bundle.scp.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingCart.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\ShoppingCart.Web.bundle.scp.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\Script\\Category.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\Category.js",
       "PackagePath": "staticwebassets\\Script\\Category.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\Script\\FE\\Shared.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\FE\\Shared.js",
       "PackagePath": "staticwebassets\\Script\\FE\\Shared.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\Script\\Product.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\Product.js",
       "PackagePath": "staticwebassets\\Script\\Product.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\Script\\Shared.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\Shared.js",
       "PackagePath": "staticwebassets\\Script\\Shared.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\Script\\jquery-ui.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\jquery-ui.js",
       "PackagePath": "staticwebassets\\Script\\jquery-ui.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\Script\\jquery-ui.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\Script\\jquery-ui.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\Script\\slick.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\slick.js",
       "PackagePath": "staticwebassets\\Script\\slick.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\Admin.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\Admin.css",
       "PackagePath": "staticwebassets\\css\\Admin.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\Fe.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\Fe.css",
       "PackagePath": "staticwebassets\\css\\Fe.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\Theme.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\Theme.css",
       "PackagePath": "staticwebassets\\css\\Theme.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\ajax-loader.gif",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.eot",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.eot",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.eot"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.svg",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.svg",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.svg"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.ttf",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.ttf",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.ttf"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.woff",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\fonts\\slick.woff",
       "PackagePath": "staticwebassets\\css\\fonts\\slick.woff"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\icon-close.png",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\icon-close.png",
       "PackagePath": "staticwebassets\\css\\icon-close.png"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\jquery-ui.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\jquery-ui.css",
       "PackagePath": "staticwebassets\\css\\jquery-ui.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\site.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\slick-theme.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\slick-theme.css",
       "PackagePath": "staticwebassets\\css\\slick-theme.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\css\\slick.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\slick.css",
       "PackagePath": "staticwebassets\\css\\slick.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\favicon.ico",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\js\\site.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\.NET\\ShoppingCart\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

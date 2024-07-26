@@ -8,9 +8,11 @@
     var userLogged = SessionUtilities.CurrentUser(ViewContext.HttpContext.Session);
     bool isProduct = ViewBag.isProduct == "True" ? true : false;
     List<UploadFile> ListThumbnail = new List<UploadFile>();
-    string mediaids = _unitOfWork.ProductRepository.GetT(p => p.Id == productID).MediaIds;
-    ListThumbnail = _unitOfWork.UploadFileRepository.GetThumbnailsFromUploadFile(mediaids);
-    
+    if (isProduct)
+    {
+        string mediaids = _unitOfWork.ProductRepository.GetT(p => p.Id == productID).MediaIds;
+        ListThumbnail = _unitOfWork.UploadFileRepository.GetThumbnailsFromUploadFile(mediaids);
+    }
 }
 <form id="addMediaFileProduct" enctype="multipart/form-data" asp-controller="Product" asp-action="AddListThumbnail">
     @Html.Hidden("UserID", userLogged.UserId)
@@ -35,11 +37,11 @@
     <div class="form-group mt-2">
         @if (!isProduct)
         {
-            <input type="button" id="btn-submitFile" data-ajax-url="@Url.Action("AddListThumbnail","UploadFile")" onclick="SubmitAddFile(@((int)(MediaType)1),@((int)(UploadType)1)); return false;" class="btn btn-primary btn-sm mt-2" value="Submit">
+            <input type="button" id="btn-submitFile" data-ajax-url="@Url.Action("UploadUserAvatar", "Home")" onclick="UploadUserAvatar(@((int)(MediaType)1)); return false;" class="btn btn-primary btn-sm mt-2" value="Submit">
         }
         else
         {
-            <input type="button" id="btn-submitFile" data-ajax-url="@Url.Action("AddListThumbnail","UploadFile")" onclick="ProductJS.SubmitAddFileProduct(@((int)(MediaType)1),@((int)(UploadType)2)); return false;" class="btn btn-primary btn-sm mt-2" value="Submit">
+            <input type="button" id="btn-submitFile" onclick="ProductJS.SubmitAddFileProduct(@((int)(MediaType)1)); return false;" class="btn btn-primary btn-sm mt-2" value="Submit">
         }
         <input type="button" id="btn-Cancel" class="btn btn-secondary btn-sm mt-2" value="Cancel">
     </div>

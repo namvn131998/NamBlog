@@ -25,6 +25,7 @@ namespace ShoppingCart.DataAccess.Model
         public int id { get; set; }
         public string value { get; set; }
         public string fileName { get; set; }
+        public string UrlThumbnail { get; set; }
 
     }
 }

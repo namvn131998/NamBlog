@@ -9,129 +9,131 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShoppingCart.Web
 build_property.RootNamespace = ShoppingCart.Web
-build_property.ProjectDir = C:\.NET\ShoppingCart\ShoppingCart.Web\
+build_property.ProjectDir = F:\NamBlog\ShoppingCart.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\.NET\ShoppingCart\ShoppingCart.Web
+build_property.MSBuildProjectDirectory = F:\NamBlog\ShoppingCart.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Category/CreateOrUpdate.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Category/CreateOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlT3JVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Category/Index.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Category/_List.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Category/_List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcX0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Home/AdminLogin.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Home/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxBZG1pbkxvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Home/Changepassword.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Home/Changepassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxDaGFuZ2VwYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Home/Index.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Home/Profile.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Home/Register.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Product/CreateOrUpdate.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Product/CreateOrUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGVPclVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Product/Index.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/Product/_List.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/Product/_List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxfTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/UploadFile/_ShowListMedia.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/UploadFile/_ShowListMedia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXBsb2FkRmlsZVxfU2hvd0xpc3RNZWRpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/UploadFile/_ShowUploadFile.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/UploadFile/_ShowUploadFile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXBsb2FkRmlsZVxfU2hvd1VwbG9hZEZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/_ViewImports.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Admin/Views/_ViewStart.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Customer/Views/Home/Index.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Customer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Customer/Views/Home/Privacy.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Customer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Customer/Views/Home/_QuickView.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Customer/Views/Home/_QuickView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxfUXVpY2tWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Customer/Views/_ViewImports.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Customer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Areas/Customer/Views/_ViewStart.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Areas/Customer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/Components/Sidebar/Default.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/Components/Sidebar/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2lkZWJhclxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/Error.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/Navigation/Footer/_FooterFE.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/Navigation/Footer/_FooterFE.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5hdmlnYXRpb25cRm9vdGVyXF9Gb290ZXJGRS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/Navigation/Header/_HeaderFE.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/Navigation/Header/_HeaderFE.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5hdmlnYXRpb25cSGVhZGVyXF9IZWFkZXJGRS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/_LoginLayout.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/_LoginLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/_ViewImports.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/_ViewStart.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/_Layout.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w02gr4tiet
 
-[C:/.NET/ShoppingCart/ShoppingCart.Web/Views/Shared/_LayoutFE.cshtml]
+[F:/NamBlog/ShoppingCart.Web/Views/Shared/_LayoutFE.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGRS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-06zwhna4oi

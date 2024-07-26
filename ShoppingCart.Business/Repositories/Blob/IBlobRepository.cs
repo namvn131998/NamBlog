@@ -15,5 +15,6 @@ namespace ShoppingCart.Business.Repositories
     {
         Task<string> UploadFileToBlobStorage(string filePath, string fileName);
         void DeleteFileBlobStorage(string fileName);
+        bool IsExistBlob(string fileName);
     }
 }

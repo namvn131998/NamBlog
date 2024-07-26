@@ -48,10 +48,9 @@ function PopupUploadFile() {
         }
     })
 }
-function SubmitAddFile() {
+function UploadUserAvatar() {
     var data = new FormData($('#addMediaFileProduct')[0]);
     data.append("MediaTypeID", 1);
-    data.append("UploadTypeID", 1);
     var url = $("#btn-submitFile").attr("data-ajax-url");
     if ($("#addMediaFileProduct").valid()) {
         $.ajax({
@@ -62,6 +61,8 @@ function SubmitAddFile() {
             processData: false,
             success: function (data) {
                 $("#modalUploadFile").dialog("close");
+                $("#Photo").val(data.urlThumbnail);
+                $(".img-thumbnail").attr("src",data.urlThumbnail);
             }
         });
     }

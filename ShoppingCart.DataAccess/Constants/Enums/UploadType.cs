@@ -8,7 +8,6 @@ namespace ShoppingCart.DataAccess.Constants.Enums
 {
     public enum UploadType
     {
-        User = 1,
         Product,
         Banner,
     }
