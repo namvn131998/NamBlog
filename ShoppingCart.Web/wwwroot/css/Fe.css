@@ -4,19 +4,21 @@
 }
 .p-slider {
 }
-.p-slider .p-slider-item {
-    width: calc(25%);
-    display: inline-block;
-}
+    .p-slider .p-slider-item {
+        max-width: 350px;
+    }
 .p-slider .p-slider-item img{
     width: 100%;
-}
-.slick-slide > A {
+    height: auto;
     display: block;
-    position: relative;
-    height: 150px;
-    width: 100%;
+    object-fit: cover;
 }
+    .slick-slide > A {
+        display: block;
+        position: relative;
+        height: 150px;
+        width: 100%;
+    }
 
     .slick-slide > A > IMG {
         position: absolute;
@@ -28,7 +30,7 @@
     }
 
 .slick-dots {
-    bottom: -80px;
+    bottom: -100px;
 }
 
     .slick-dots LI {
@@ -75,3 +77,57 @@
                 padding-top: 100%;
                 height: auto;
             }
+.ui-widget-overlay{
+    opacity: 0.3 !important;
+}
+.card-product{
+    height: 350px;
+}
+    .card .card-product-content {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+    }
+
+.price-container .price-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.price-container .range-slider {
+    position: relative;
+    margin: 15px 0 30px 0;
+}
+.price-container .range-fill {
+    height: 6px;
+    background-color: #36b37e;
+    position: absolute;
+    z-index: 1;
+}
+.price-container input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    left: 0;
+}
+.price-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #36b37e;
+    cursor: pointer;
+    margin-top: -5px;
+    position: relative;
+    z-index: 1;
+}
+.price-container input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background: #e8e8e8;
+    border-radius: 3px;
+    border: none;
+}

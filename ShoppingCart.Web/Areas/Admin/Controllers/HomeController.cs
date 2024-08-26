@@ -128,6 +128,7 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
         public IActionResult UpdateUser(Registration reg)
         {
             _unitOfWork.RegistrationRepository.Update(reg);
+            HttpContext.Session.Set(SessionUtilities.SessionCurrentUserkey, reg);
             _unitOfWork.Save();
             var model = _unitOfWork.RegistrationRepository.GetUserByID(reg.UserID);
             return RedirectToAction("Profile", model);

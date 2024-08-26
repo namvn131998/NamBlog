@@ -146,7 +146,7 @@
                             <ul class="mb-0 list-unstyled">
                                 @foreach(var item in categoryVM.categories){
                                     <li>
-                                        <a class="dropdown-item">@item.Name</a>
+                                        <a href="@Url.Action("Index","Category")" target="_blank" class="dropdown-item">@item.Name</a>
                                     </li>
                                 }
                             </ul>
@@ -168,7 +168,7 @@
                     <ul class="dropdown-menu show" aria-labelledby="dropdownMenuHome" data-bs-popper="static">
                         @foreach(var item in categoryVM.categories){
                             <li>
-                                <a class="dropdown-item">@item.Name</a>
+                                    <a href="@Url.Action("Index","Category")" target="_blank"  class="dropdown-item">@item.Name</a>
                             </li>
                         }
                     </ul>

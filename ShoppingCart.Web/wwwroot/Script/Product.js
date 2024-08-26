@@ -46,7 +46,8 @@
                 $("#modalUploadProductImage").html(data);
                 $("#modalUploadProductImage").dialog({
                     modal: true,
-                    width: 500,
+                    width: 800,
+                    height: 500,
                     lgClass: true
                 });
                 $("#modalUploadProductImage").dialog("open");

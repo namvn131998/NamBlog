@@ -61,18 +61,20 @@
                 @Html.ValidationMessageFor(model => model.CategoryId)
             </div>
             <div class="form-group">
+                <div class="list-medias">
                 @if(Model.Id > 0)
                 {
-                    
                     foreach(var item in ListThumbnail)
                     {
                         @Html.Hidden("UserID", item.UserID)
                         <div class="list-media-item m-2">
                             <img src="@item.Thumbnail"/>
+                            <a onclick="ProductJS.DeleteMedia(@item.MediaID, '@item.FileName', @Model.Id); return false;"><i class="fa-solid fa-xmark"></i></a>
                         </div>
                     }
-                <a onclick="ProductJS.ShowUploadFile('True',@Model.Id); return false;" class="btn btn-primary btn-sm mt-2">Upload Image</a>
                 }
+                </div>
+                <a onclick="ProductJS.ShowUploadFile('True',@Model.Id); return false;" class="btn btn-primary btn-sm mt-2">Upload Image</a>
             </div>
             <div class="pt-2">
                 <a class="btn btn-primary" onclick="ProductJS.CreateOrUpdate()">Save</a>

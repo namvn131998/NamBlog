@@ -43,7 +43,9 @@ $(document).ready(function () {
 });
 var urls = {
     urlQuickView: SiteConfig.gSiteAdrs + 'Customer/Home/_QuickView',
+    urlCategory: SiteConfig.gSiteAdrs + 'Customer/Category/_Index'
 }
+
 function openQuickViewModal(productID) {
     $.ajax({
         url: urls.urlQuickView,
@@ -57,13 +59,19 @@ function openQuickViewModal(productID) {
                 width: 800,
                 height: 600,
                 modal: true,
-                lgClass: true
+                lgClass: true,
+                show: {
+                    effect: 'fade',
+                    duration: 200 //at your convenience
+                },
+                hide: {
+                    effect: 'fade',
+                    duration: 200 //at your convenience
+                }
             });
-            $("#product-QuickView").dialog();
             $('#productModal').slick({
                 infinite: true
             });
-            $(".ui-dialog-titlebar").hide();
         }
     })
 }
