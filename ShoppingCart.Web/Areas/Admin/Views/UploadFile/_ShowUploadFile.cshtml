@@ -8,11 +8,11 @@
     var userLogged = SessionUtilities.CurrentUser(ViewContext.HttpContext.Session);
     bool isProduct = ViewBag.isProduct == "True" ? true : false;
     List<UploadFile> ListThumbnail = new List<UploadFile>();
-    if (isProduct)
-    {
-        string mediaids = _unitOfWork.ProductRepository.GetT(p => p.Id == productID).MediaIds;
-        ListThumbnail = _unitOfWork.UploadFileRepository.GetThumbnailsFromUploadFile(mediaids);
-    }
+    // if (isProduct)
+    // {
+    //     string mediaids = _unitOfWork.ProductRepository.GetT(p => p.Id == productID).MediaIds;
+    //     ListThumbnail = _unitOfWork.UploadFileRepository.GetThumbnailsFromUploadFile(mediaids);
+    // }
 }
 <form id="addMediaFileProduct" enctype="multipart/form-data" asp-controller="Product" asp-action="AddListThumbnail">
     @Html.Hidden("UserID", userLogged.UserId)

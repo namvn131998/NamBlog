@@ -8,6 +8,13 @@ var urls = {
     urlQuickView: SiteConfig.gSiteAdrs + 'Customer/Home/_QuickView',
     urlCategory: SiteConfig.gSiteAdrs + 'Customer/Category/_Index'
 }
+var getFilterCateCongig = {
+    pageIndex: 1,
+    pageSize: 10,
+    sortBy: "",
+    sortDirection: "ASC",
+    searchValue: ""
+}
 
 let minValue = document.getElementById("min-value");
 let maxValue = document.getElementById("max-value");
@@ -17,6 +24,9 @@ const rangeFill = document.querySelector(".price-container .range-fill");
 
 const inputElements = document.querySelectorAll(".price-container input");
 const licategoryElements = document.querySelectorAll(".nav-category .nav-item a");
+const filterSize = document.getElementById("filterSize");
+const filterSort = document.getElementById("filterSort");
+
 
 // Add an event listener to each input element
 inputElements.forEach((element) => {
@@ -30,6 +40,15 @@ licategoryElements.forEach((element) => {
         let id = parseInt(this.dataset.cateid)
         showCategory(id);
     });
+});
+
+filterSort.addEventListener("change", function () {
+    getFilterCateCongig.sortBy = document.getElementById("filterSort").value;
+    showCategory();
+});
+filterSize.addEventListener("change", function () {
+    getFilterCateCongig.pageSize = document.getElementById("filterSize").value;
+    showCategory();
 });
 
 // Function to validate range and update the fill color on slider
@@ -82,14 +101,27 @@ function openQuickViewModal(productID) {
     })
 }
 function showCategory(id) {
+    let minPrice = parseInt(inputElements[0].value);
+    let maxPrice = parseInt(inputElements[1].value);
+    if (id === undefined)
+        id = $("#cateID").val();
     $.ajax({
         url: urls.urlCategory,
         type: "GET",
         data: {
-            Id: id,
+            CategoryId: id,
+            pageIndex: getFilterCateCongig.pageIndex,
+            pageSize: getFilterCateCongig.pageSize,
+            sortBy: getFilterCateCongig.sortBy,
+            sortDirection: getFilterCateCongig.sortDirection,
+            searchValue: getFilterCateCongig.searchValue,
+            minPrice: minPrice,
+            maxPrice: maxPrice
         },
         success: function (data) {
             $("#category-card").html(data);
+            $("#CateName").html($("#hdcateName").val());
+            $("#productCount").html($("#hdproductCount").val());
         }
     });
 }

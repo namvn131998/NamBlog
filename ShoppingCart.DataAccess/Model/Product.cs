@@ -22,6 +22,7 @@ namespace ShoppingCart.DataAccess.Model
         [ValidateNever]
         public Category Category { get; set; }
         public string MediaIds { get; set; }
+        public DateTime CreatedDate { get; set; }
         public Product()
         {
             MediaIds = string.Empty;

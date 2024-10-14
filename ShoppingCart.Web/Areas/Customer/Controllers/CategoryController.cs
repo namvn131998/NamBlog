@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ShoppingCart.Business.Repositories;
 using ShoppingCart.Models.Category;
+using ShoppingCart.Models.Product;
 
 namespace ShoppingCart.Web.Areas.Customer.Controllers
 {
@@ -16,10 +17,15 @@ namespace ShoppingCart.Web.Areas.Customer.Controllers
         {
             return View();
         }
-        public IActionResult _Index(CategoryListRequestModel category)
+        public IActionResult _Index(ProductListRequestModel product)
         {
-            var cate = _unitOfWork.CategoryRepository.GetT(c => c.Id == category.Id);
-            return PartialView(cate);
+            var products = _unitOfWork.ProductRepository.GetProducts(product);
+            ViewBag.CategoryName = _unitOfWork.CategoryRepository.GetT(c => c.Id == product.CategoryId).Name;
+            ViewBag.CategoryId = product.CategoryId;
+            ViewBag.PageSize = product.PageSize;
+            ViewBag.minPrice = product.minPrice;
+            ViewBag.maxPrice = product.maxPrice;
+            return PartialView(products);
         }
     }
 }

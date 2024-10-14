@@ -2,7 +2,7 @@
 using ShoppingCart.Business.Repositories;
 using ShoppingCart.DataAccess.ViewModels;
 using ShoppingCart.DataAccess.Model;
-using ShoppingCart.Models.Category;
+using ShoppingCart.Models.Product;
 using ShoppingCart.DataAccess.Constants.Enums;
 using ShoppingCart.Business.Utilities;
 using ShoppingCart.DataAccess.Helper;
@@ -28,7 +28,6 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult CreateOrUpdate(int? id)
         {
-            ViewBag.Host = GetHostName();
             Product product = new Product();
             if (id == null || id == 0)
             {
@@ -81,7 +80,6 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult _List(ProductListRequestModel product)
         {
-            ViewBag.Host = GetHostName();
             ProductVM productVM = new ProductVM();
             if (string.IsNullOrEmpty(product.searchValue))
                 productVM.Products = _unitOfWork.ProductRepository.GetAll();
@@ -99,12 +97,6 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
                     break;
             }
             return PartialView(productVM.Products.ToPagedList(product.Page, product.PageSize));
-        }
-        public string GetHostName() 
-        {
-            var host = HttpContext.Request.Host.ToString();
-            host = Commons.GetPathImage(host);
-            return host;
         }
     }
 }
