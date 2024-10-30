@@ -13,8 +13,9 @@ namespace ShoppingCart.Web.Areas.Customer.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index()
+        public IActionResult Index(int categoryId)
         {
+            ViewBag.CategoryId = categoryId;
             return View();
         }
         public IActionResult _Index(ProductListRequestModel product)

@@ -13,6 +13,19 @@
     display: block;
     object-fit: cover;
 }
+.p-slider-details {
+}
+
+    .p-slider-details .p-slider-details-item {
+        max-width: 628px;
+    }
+
+        .p-slider-details .p-slider-details-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
     .slick-slide > A {
         display: block;
         position: relative;

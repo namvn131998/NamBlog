@@ -2,7 +2,7 @@
 $(document).ready(function () {
     // Initial call to validateRange
     validateRange();
-    showCategory(3);
+    showCategory();
 });
 var urls = {
     urlQuickView: SiteConfig.gSiteAdrs + 'Customer/Home/_QuickView',
@@ -120,7 +120,7 @@ function showCategory(id) {
         },
         success: function (data) {
             $("#category-card").html(data);
-            $("#CateName").html($("#hdcateName").val());
+            $(".c-name").html($("#hdcateName").val());
             $("#productCount").html($("#hdproductCount").val());
         }
     });

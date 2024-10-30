@@ -43,7 +43,6 @@ $(document).ready(function () {
 });
 var urls = {
     urlQuickView: SiteConfig.gSiteAdrs + 'Customer/Home/_QuickView',
-    urlCategory: SiteConfig.gSiteAdrs + 'Customer/Category/_Index'
 }
 
 function openQuickViewModal(productID) {

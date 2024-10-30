@@ -2,6 +2,7 @@
 @using ShoppingCart.DataAccess.ViewModels
 @using ShoppingCart.Business.Repositories
 @using ShoppingCart.Models.Category
+@using ShoppingCart.Models.Product
 @inject IUnitOfWork _unitOfWork;
 @{
     ViewData["Title"] = "Category Page";
@@ -10,7 +11,12 @@
     ProductVM productVM = new ProductVM();
     productVM.Products = _unitOfWork.ProductRepository.GetAll();
     categoryVM.categories = _unitOfWork.CategoryRepository.GetAll();
+    int CategoryId = ViewBag.CategoryID;
+
 }
+<div id="product-QuickView">
+</div>
+<input id="cateID" type="hidden" value="@CategoryId"/>
 <div class="mt-4">
     <div class="container">
         <!-- row -->
@@ -22,7 +28,7 @@
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item"><a href="#!">Home</a></li>
                         <li class="breadcrumb-item"><a href="#!">Shop</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Snacks &amp; Munchies</li>
+                        <li class="breadcrumb-item c-name active" aria-current="page"></li>
                     </ol>
                 </nav>
             </div>
@@ -103,7 +109,7 @@
             <section class="col-lg-9 col-md-12">
                 <div class="card mb-4 bg-light border-0">
                     <div class="card-body p-9">
-                        <h2 id="CateName" class="mb-0 fs-1"></h2>
+                        <h2 class="mb-0 fs-1 c-name"></h2>
                     </div>
                 </div>
                 <div class="d-lg-flex justify-content-between align-items-center">

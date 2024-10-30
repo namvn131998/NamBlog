@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row w-100 align-items-center justify-content-between gx-lg-2">
                 <div class="col-xxl-2 col-lg-3">
-                    <a class="navbar-brand d-none d-lg-block">
+                    <a class="navbar-brand d-none d-lg-block" href="@Url.Action("Index","Home")">
                         <img src="https://namvnstorage.blob.core.windows.net/namvucontainer/freshcart-logo.svg" />
                     </a>
                     <div class="d-flex justify-content-between w-100 d-lg-none">
@@ -168,7 +168,7 @@
                     <ul class="dropdown-menu show" aria-labelledby="dropdownMenuHome" data-bs-popper="static">
                         @foreach(var item in categoryVM.categories){
                             <li>
-                                    <a href="@Url.Action("Index","Category")"  class="dropdown-item">@item.Name</a>
+                                    <a href="@Url.Action("Index","Category", new{ categoryId = item.Id})"  class="dropdown-item">@item.Name</a>
                             </li>
                         }
                     </ul>

@@ -6,6 +6,7 @@ using ShoppingCart.Models.Product;
 
 namespace ShoppingCart.Web.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class ProductController : Controller
     {
         private IUnitOfWork _unitOfWork;
@@ -16,6 +17,10 @@ namespace ShoppingCart.Web.Areas.Customer.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        public IActionResult Details(int productId) {
+            var product = _unitOfWork.ProductRepository.GetT(p => p.Id == productId);
+            return View(product);
         }
         public  IPagedList<Product> GetProductsOfCategory(ProductListRequestModel request)
         {

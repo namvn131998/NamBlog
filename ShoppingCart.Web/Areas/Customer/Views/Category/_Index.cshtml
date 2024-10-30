@@ -28,13 +28,13 @@
                         <div class="position-absolute top-0 start-0">
                             <span class="badge bg-danger">Sale</span>
                         </div>
-                        <a href="shop-single.html">
+                        <a href="@Url.Action("Details","Product", new { productId = item.Id})">
                             <!-- img -->
                             <img src="@_unitOfWork.UploadFileRepository.GetThumbnailFromUploadFile(item.MediaIds)" alt="Grocery Ecommerce Template" class="mb-3 img-fluid">
                         </a>
                         <!-- action btn -->
                         <div class="card-product-action">
-                            <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
+                            <a href="#!" class="btn-action" onclick="openQuickViewModal(@item.Id);">
                                 <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View" data-bs-original-title="Quick View"></i>
                             </a>
                             <a href="shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>

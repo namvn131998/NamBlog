@@ -11,6 +11,8 @@ namespace ShoppingCart.Models.Product
     {
         public ProductListRequestModel() :base()
         {
+            minPrice = 0;
+            maxPrice = 0;
         }
         public string Name { get; set; }
         public string Description { get; set; }
