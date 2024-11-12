@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\Script\\Category.js"
     },
     {
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\FE\\Category.js",
+      "PackagePath": "staticwebassets\\Script\\FE\\Category.js"
+    },
+    {
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\FE\\Product.js",
+      "PackagePath": "staticwebassets\\Script\\FE\\Product.js"
+    },
+    {
       "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\FE\\Shared.js",
       "PackagePath": "staticwebassets\\Script\\FE\\Shared.js"
     },
@@ -31,6 +39,14 @@
     {
       "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\slick.js",
       "PackagePath": "staticwebassets\\Script\\slick.js"
+    },
+    {
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Upload\\product-img-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\product-img-2.jpg"
+    },
+    {
+      "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Upload\\product-img-3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\product-img-3.jpg"
     },
     {
       "Id": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\css\\Admin.css",

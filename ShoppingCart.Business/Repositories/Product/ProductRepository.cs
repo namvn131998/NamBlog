@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ShoppingCart.DataAccess.Data;
-using ShoppingCart.Models;
 using ShoppingCart.DataAccess.Model;
 using ShoppingCart.Business.Repositories;
 using Microsoft.AspNetCore.Mvc;

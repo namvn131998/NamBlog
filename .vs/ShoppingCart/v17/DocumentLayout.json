@@ -3,136 +3,48 @@
   "WorkspaceRootPath": "F:\\NamBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\customer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\customer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\customer\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\customer\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\shoppingcart.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\shoppingcart.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\wwwroot\\script\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\wwwroot\\script\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{6E44979E-2876-4FA2-BA1C-6131CC957C5F}|ShoppingCart.Models\\ShoppingCart.Models.csproj|f:\\namblog\\shoppingcart.models\\category\\categorylistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E44979E-2876-4FA2-BA1C-6131CC957C5F}|ShoppingCart.Models\\ShoppingCart.Models.csproj|solutionrelative:shoppingcart.models\\category\\categorylistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\blob\\blobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\blob\\blobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4CEE748-900A-45B8-9255-CCAC6EEFDD26}|ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj|f:\\namblog\\shoppingcart.dataaccess\\model\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4CEE748-900A-45B8-9255-CCAC6EEFDD26}|ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj|solutionrelative:shoppingcart.dataaccess\\model\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\views\\uploadfile\\_showuploadfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\views\\uploadfile\\_showuploadfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4CEE748-900A-45B8-9255-CCAC6EEFDD26}|ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj|f:\\namblog\\shoppingcart.dataaccess\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4CEE748-900A-45B8-9255-CCAC6EEFDD26}|ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj|solutionrelative:shoppingcart.dataaccess\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\views\\product\\createorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\views\\product\\createorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\blob\\iblobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\blob\\iblobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4CEE748-900A-45B8-9255-CCAC6EEFDD26}|ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj|f:\\namblog\\shoppingcart.dataaccess\\constants\\enums\\uploadtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4CEE748-900A-45B8-9255-CCAC6EEFDD26}|ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj|solutionrelative:shoppingcart.dataaccess\\constants\\enums\\uploadtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\views\\uploadfile\\_showlistmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\views\\uploadfile\\_showlistmedia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\uploadfile\\iuploadfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\uploadfile\\iuploadfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\customer\\views\\home\\_quickview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\customer\\views\\home\\_quickview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E44979E-2876-4FA2-BA1C-6131CC957C5F}|ShoppingCart.Models\\ShoppingCart.Models.csproj|f:\\namblog\\shoppingcart.models\\product\\productlistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E44979E-2876-4FA2-BA1C-6131CC957C5F}|ShoppingCart.Models\\ShoppingCart.Models.csproj|solutionrelative:shoppingcart.models\\product\\productlistrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\registration\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\registration\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|f:\\namblog\\shoppingcart.business\\repositories\\uploadfile\\uploadfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6914F9-7ECE-451F-9A5A-EA4767CFDC39}|ShoppingCart.Business\\ShoppingCart.Business.csproj|solutionrelative:shoppingcart.business\\repositories\\uploadfile\\uploadfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\views\\product\\_list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\views\\product\\_list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\wwwroot\\script\\fe\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\wwwroot\\script\\fe\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\views\\shared\\navigation\\header\\_headerfe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\views\\shared\\navigation\\header\\_headerfe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\views\\shared\\navigation\\footer\\_footerfe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\views\\shared\\navigation\\footer\\_footerfe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\areas\\customer\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\areas\\customer\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\views\\shared\\_layoutfe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\views\\shared\\_layoutfe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\views\\shared\\components\\sidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\views\\shared\\components\\sidebar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|f:\\namblog\\shoppingcart.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67653634-0C11-428C-9BCE-13B505294D48}|ShoppingCart.Web\\ShoppingCart.Web.csproj|solutionrelative:shoppingcart.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,65 +54,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Customer\\Views\\Category\\Index.cshtml",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Customer\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T09:32:00.544Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCart.Business.csproj",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\ShoppingCart.Business.csproj",
+              "RelativeDocumentMoniker": "ShoppingCart.Business\\ShoppingCart.Business.csproj",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\ShoppingCart.Business.csproj",
+              "RelativeToolTip": "ShoppingCart.Business\\ShoppingCart.Business.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T07:53:31.92Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAD4v5oAAAANAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Customer\\Controllers\\ProductController.cs",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Customer\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.961Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-11T07:53:12.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Product.js",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\Product.js",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\wwwroot\\Script\\Product.js",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\Product.js",
-              "RelativeToolTip": "ShoppingCart.Web\\wwwroot\\Script\\Product.js",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAUwEEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-26T02:58:35.916Z",
-              "IsPinned": true,
+              "Title": "CategoryListRequestModel.cs",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Models\\Category\\CategoryListRequestModel.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Models\\Category\\CategoryListRequestModel.cs",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Models\\Category\\CategoryListRequestModel.cs",
+              "RelativeToolTip": "ShoppingCart.Models\\Category\\CategoryListRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:52:58.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Customer\\Controllers\\CategoryController.cs",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Customer\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:52:27.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UploadFileController.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\UploadFileController.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\UploadFileController.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\UploadFileController.cs",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\UploadFileController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAlwCAAAAAMAAAA",
+              "DocumentIndex": 5,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
+              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T07:49:41.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_HeaderFE.cshtml",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
+              "RelativeDocumentMoniker": "ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
+              "RelativeToolTip": "ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T07:48:40.349Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BlobRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Blob\\BlobRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Blob\\BlobRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Blob\\BlobRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Blob\\BlobRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAWwBcAAAAIAAAA",
+              "Title": "ProductListRequestModel.cs",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Models\\Product\\ProductListRequestModel.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Models\\Product\\ProductListRequestModel.cs",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Models\\Product\\ProductListRequestModel.cs",
+              "RelativeToolTip": "ShoppingCart.Models\\Product\\ProductListRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T07:45:52.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
+              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:45:35.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:40:28.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\appsettings.json",
               "RelativeDocumentMoniker": "ShoppingCart.Web\\appsettings.json",
@@ -208,355 +189,7 @@
               "RelativeToolTip": "ShoppingCart.Web\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-26T02:58:35.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAtwDQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UploadFile.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.DataAccess\\Model\\UploadFile.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.DataAccess\\Model\\UploadFile.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.DataAccess\\Model\\UploadFile.cs",
-              "RelativeToolTip": "ShoppingCart.DataAccess\\Model\\UploadFile.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAywBsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T08:44:10.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateOrUpdate.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\CreateOrUpdate.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\CreateOrUpdate.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\CreateOrUpdate.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\CreateOrUpdate.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvxsAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ShowUploadFile.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowUploadFile.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowUploadFile.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowUploadFile.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowUploadFile.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.js",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\wwwroot\\js\\site.js",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "ShoppingCart.Web\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAADQAAAAAAAAAAAAqwDkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-26T07:58:07.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.DataAccess\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.DataAccess\\Model\\Product.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.DataAccess\\Model\\Product.cs",
-              "RelativeToolTip": "ShoppingCart.DataAccess\\Model\\Product.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAWwBoAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T08:58:03.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUploadFileRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\UploadFile\\IUploadFileRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\UploadFile\\IUploadFileRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\UploadFile\\IUploadFileRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\UploadFile\\IUploadFileRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\Home\\Profile.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Views\\Home\\Profile.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\Home\\Profile.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Views\\Home\\Profile.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAACQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T08:42:35.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IBlobRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Blob\\IBlobRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Blob\\IBlobRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Blob\\IBlobRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Blob\\IBlobRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAWwBEAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UploadType.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.DataAccess\\Constants\\Enums\\UploadType.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.DataAccess\\Constants\\Enums\\UploadType.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.DataAccess\\Constants\\Enums\\UploadType.cs",
-              "RelativeToolTip": "ShoppingCart.DataAccess\\Constants\\Enums\\UploadType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T03:22:24.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Category\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Category\\CategoryRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Category\\CategoryRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Category\\CategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_QuickView.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\_QuickView.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\_QuickView.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\_QuickView.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\_QuickView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Product\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ShowListMedia.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowListMedia.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowListMedia.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowListMedia.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Views\\UploadFile\\_ShowListMedia.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RegistrationRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Registration\\RegistrationRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Registration\\RegistrationRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Registration\\RegistrationRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Registration\\RegistrationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Category\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Category\\ICategoryRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Category\\ICategoryRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Category\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Product\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Repository\\IRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Repository\\IRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\Repository\\Repository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\Repository\\Repository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\Repository\\Repository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Shared.js",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\FE\\Shared.js",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\wwwroot\\Script\\FE\\Shared.js",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\wwwroot\\Script\\FE\\Shared.js",
-              "RelativeToolTip": "ShoppingCart.Web\\wwwroot\\Script\\FE\\Shared.js",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAvwBwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-26T02:58:35.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UploadFileRepository.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\UploadFile\\UploadFileRepository.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Business\\Repositories\\UploadFile\\UploadFileRepository.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Business\\Repositories\\UploadFile\\UploadFileRepository.cs",
-              "RelativeToolTip": "ShoppingCart.Business\\Repositories\\UploadFile\\UploadFileRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAwB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_List.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\_List.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\_List.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\_List.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Views\\Product\\_List.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T02:58:35.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "_FooterFE.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Navigation\\Footer\\_FooterFE.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Views\\Shared\\Navigation\\Footer\\_FooterFE.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Navigation\\Footer\\_FooterFE.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Views\\Shared\\Navigation\\Footer\\_FooterFE.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "_HeaderFE.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Views\\Shared\\Navigation\\Header\\_HeaderFE.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "_LayoutFE.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\_LayoutFE.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Views\\Shared\\_LayoutFE.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\_LayoutFE.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Views\\Shared\\_LayoutFE.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Components\\Sidebar\\Default.cshtml",
-              "RelativeDocumentMoniker": "ShoppingCart.Web\\Views\\Shared\\Components\\Sidebar\\Default.cshtml",
-              "ToolTip": "F:\\NamBlog\\ShoppingCart.Web\\Views\\Shared\\Components\\Sidebar\\Default.cshtml",
-              "RelativeToolTip": "ShoppingCart.Web\\Views\\Shared\\Components\\Sidebar\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T02:58:35.97Z"
+              "WhenOpened": "2024-07-26T02:58:35.908Z"
             }
           ]
         }

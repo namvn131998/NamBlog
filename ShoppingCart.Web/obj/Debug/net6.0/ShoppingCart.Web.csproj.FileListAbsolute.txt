@@ -883,3 +883,5 @@ F:\NamBlog\ShoppingCart.Web\obj\Debug\net6.0\scopedcss\projectbundle\ShoppingCar
 F:\NamBlog\ShoppingCart.Web\obj\Debug\net6.0\Shopping.81D3397B.Up2Date
 F:\NamBlog\ShoppingCart.Web\obj\Debug\net6.0\ShoppingCart.Web.genruntimeconfig.cache
 F:\NamBlog\ShoppingCart.Web\obj\Debug\net6.0\ref\ShoppingCart.Web.dll
+F:\NamBlog\ShoppingCart.Web\bin\Debug\net6.0\PagedList.dll
+F:\NamBlog\ShoppingCart.Web\bin\Debug\net6.0\PagedList.Mvc.dll

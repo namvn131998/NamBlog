@@ -26390,7 +26390,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
     height: 100%;
     min-height: 2rem;
     text-align: center;
-    width: 2rem !important
+    width: 2.5rem !important
 }
 
 .file-upload {

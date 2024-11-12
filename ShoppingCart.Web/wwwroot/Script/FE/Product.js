@@ -43,4 +43,34 @@
 
 
     }).slick(options);
+    // custom button quantity
+    let number = 1;
+
+    document.getElementById("button-plus").addEventListener("click", () => {
+        number++;
+        document.getElementById("quantityProduct").value = number;
+    });
+
+    document.getElementById("button-minus").addEventListener("click", () => {
+        number--;
+        if (number >= 0)
+            document.getElementById("quantityProduct").value = number;
+        else {
+            number = 0;
+            document.getElementById("quantityProduct").value = number;
+        }
+    });
+    //end
+
+    // custom weight
+    elements = document.querySelectorAll('.btn-weight');
+    elements.forEach((element) => {
+        element.addEventListener("click", function () {
+            elements.forEach((element) => {
+                element.classList.remove("active");
+            });
+            this.classList.add("active");
+        });
+    });
+    //end
 })
