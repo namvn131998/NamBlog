@@ -24,5 +24,6 @@ namespace ShoppingCart.DataAccess.Model
         public DateTime CreatedDate { get; set; }
         public int Status { get; set; }
         public string? Photo { get; set; }   
+        public int UserType { get; set; }   
     }
 }

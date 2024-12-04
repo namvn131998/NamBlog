@@ -13,7 +13,7 @@ namespace ShoppingCart.DataAccess.Constants.Enums
         Activated = 1,
         Disabled = 2
     }
-    public enum RegistrationType
+    public enum UserType
     {
         [Description("Customer")]
         Customer = 0,
