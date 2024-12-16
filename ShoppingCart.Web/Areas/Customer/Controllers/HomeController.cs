@@ -5,6 +5,8 @@ using ShoppingCart.Models;
 using System.Diagnostics;
 using ShoppingCart.DataAccess.ViewModels;
 using ShoppingCart.DataAccess.Constants.Enums;
+using ShoppingCart.Business.Utilities;
+using ShoppingCart.DataAccess.Helper;
 
 namespace ShoppingCart.Web.Controllers
 {
@@ -41,6 +43,46 @@ namespace ShoppingCart.Web.Controllers
         public IActionResult Login() 
         {
             return View(new Registration());
+        }
+        [HttpPost]
+        public IActionResult Login(LoginViewModel log)
+        {
+            string message = "InvalidUserName";
+            Registration registration = new Registration();
+            LoginStatus loginStatus = _unitOfWork.RegistrationRepository.Login(log.Username, log.Password, out registration);
+            if (registration != null)
+            {
+                switch (loginStatus)
+                {
+                    case LoginStatus.Pending:
+                        message = "Your account is pending";
+                        break;
+                    case LoginStatus.Disabled:
+                        message = "Your account is disabled";
+                        break;
+                    case LoginStatus.InvalidUserName:
+                        message = "InvalidUserName";
+                        ModelState.AddModelError("UserName", message);
+                        break;
+                    case LoginStatus.InvalidPassword:
+                        message = "InvalidPassword";
+                        ModelState.AddModelError("Password", message);
+                        break;
+                    default:
+                        message = "LoginSuccess";
+                        break;
+                }
+            }
+            if (loginStatus == LoginStatus.Success)
+            {
+                var user = new LoggedUser(registration);
+                HttpContext.Session.Set(SessionUtilities.SessionCurrentUserkey, user);
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return View();
+            }
         }
         public IActionResult Register()
         {

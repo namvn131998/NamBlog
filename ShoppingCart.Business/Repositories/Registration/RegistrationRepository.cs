@@ -33,7 +33,7 @@ namespace ShoppingCart.Business.Repositories
         public LoginStatus Login(string username, string password, out Registration registration)
         {
             LoginStatus loginStatus = LoginStatus.InvalidUserName;
-            registration = GetUserName(username);
+            registration = GetUserByName(username);
             if(registration != null)
             {
                 if(password == registration.Password)
@@ -58,7 +58,7 @@ namespace ShoppingCart.Business.Repositories
             }
             return loginStatus;
         }
-        public Registration GetUserName(string username="")
+        public Registration GetUserByName(string username="")
         {
             return _context.Registrations.FirstOrDefault(r => r.UserName == username) ?? new Registration();
         }

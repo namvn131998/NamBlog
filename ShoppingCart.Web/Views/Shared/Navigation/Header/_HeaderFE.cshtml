@@ -1,10 +1,15 @@
-﻿@using ShoppingCart.DataAccess.Model
+﻿@using ShoppingCart.Business.Utilities
+@using ShoppingCart.DataAccess.Helper
+@using ShoppingCart.DataAccess.Model
 @using ShoppingCart.DataAccess.ViewModels
 @using ShoppingCart.Business.Repositories
 @inject IUnitOfWork _unitOfWork;
 @{
     CategoryVM categoryVM = new CategoryVM();
     categoryVM.categories = _unitOfWork.CategoryRepository.GetAll();
+    var islogged = SessionUtilities.IsLogged(ViewContext.HttpContext.Session);
+    var userLogged = SessionUtilities.CurrentUser(ViewContext.HttpContext.Session) ?? new LoggedUser();
+    
 }
 <div class="header">
     <div class="py-5">
@@ -21,7 +26,8 @@
                         <div class="d-flex align-items-center lh-1">
                             <div class="list-inline me-4">
                                 <div class="list-inline-item">
-                                    <a href="#!" class="text-muted" data-bs-toggle="modal" data-bs-target="#userModal">
+                                    <span class="text-bold">@userLogged.LastName</span>
+                                    <a asp-action="" class="text-muted">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
                                         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                                         <circle cx="12" cy="7" r="4"></circle>
@@ -80,12 +86,23 @@
                             </a>
                         </div>
                         <div class="list-inline-item me-5">
-                            <a href="#!" class="text-muted" data-bs-toggle="modal" data-bs-target="#userModal">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
-                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
-                                </svg>
-                            </a>
+                            @if(islogged){
+                                <span class="fw-bold">@userLogged.LastName</span>
+                                <a asp-controller="Home" asp-action="MyProfile" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </a>
+                            }else
+                            {
+                                <a asp-controller="Home" asp-action="Login" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </a>
+                            }
                         </div>
                         <div class="list-inline-item">
                             <a class="text-muted position-relative " data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" href="#offcanvasExample" role="button" aria-controls="offcanvasRight">

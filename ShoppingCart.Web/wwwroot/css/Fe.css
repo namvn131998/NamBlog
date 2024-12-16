@@ -151,3 +151,11 @@
 .btn-weight .active {
     background-color: var(--fc-btn-hover-bg);
 }
+/*custom input validate*/
+.field-validation-error{
+    color: red;
+    font-size: 12px;
+}
+.input-validation-error {
+    border-color: var(--fc-form-invalid-border-color);
+}

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,9 @@ namespace ShoppingCart.DataAccess.Model
         public string UserName { get; set; }
         [Required]
         public string Password { get; set; }
+        [NotMapped]
         public string? Newpassword { get; set; }
+        [NotMapped]
         public string? Confirmpassword { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

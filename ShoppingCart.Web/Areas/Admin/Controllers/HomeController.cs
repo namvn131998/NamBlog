@@ -89,6 +89,9 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                reg.CreatedDate = DateTime.Now;
+                reg.UserType = (int)UserType.Superadmin;
+                reg.Status = (int)RegistrationStatus.Activated;
                 if (reg.UserID == 0)
                 {
                     _unitOfWork.RegistrationRepository.Add(reg);
