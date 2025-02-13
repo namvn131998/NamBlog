@@ -6,12 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ShoppingCart.DataAccess.Helper;
+using System.Collections;
+using ShoppingCart.DataAccess.Model;
 
 namespace ShoppingCart.Business.Utilities
 {
     public static class SessionUtilities
     {
         public static string SessionCurrentUserkey = "CurrentUser";
+        public static string SessionCart = "Cart";
         public static void Set<T>(this ISession session, string key, T value)
         {
             session.SetString(key, JsonConvert.SerializeObject(value));
@@ -23,7 +26,30 @@ namespace ShoppingCart.Business.Utilities
             return value == null ? default(T) :
                 JsonConvert.DeserializeObject<T>(value);
         }
-
+        public static List<Cart>? GetCart<T>(this ISession session, string key)
+        {
+            var value = session.GetString(key);
+            if (value != null)
+            {
+                if (value.TrimStart().StartsWith("["))
+                {
+                    // Deserialize as list
+                    var carts = JsonConvert.DeserializeObject<List<Cart>>(value);
+                    return carts;
+                }
+                else
+                {
+                    // Deserialize single object and convert to list
+                    var cart = JsonConvert.DeserializeObject<Cart>(value);
+                    var carts = new List<Cart> { cart };
+                    return carts;
+                }
+            }
+            else
+            {
+                return null;
+            }
+        }
         public static void SetInt(this ISession session, string key, int value)
         {
             session.SetInt32(key, value);

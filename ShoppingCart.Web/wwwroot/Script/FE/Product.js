@@ -43,6 +43,7 @@
 
 
     }).slick(options);
+
     // custom button quantity
     let number = 1;
 
@@ -74,3 +75,22 @@
     });
     //end
 })
+var urls = {
+    urlQuickView: SiteConfig.gSiteAdrs + 'Customer/Cart/AddToCart',
+}
+function AddToCart() {
+    // Url for the request 
+    let productID = document.getElementById("hdId").value;
+    let photo = document.getElementById("hdPhoto").value;
+    let weight = document.getElementsByClassName('btn-weight active')[0].textContent;
+    let quantity = document.getElementById("quantityProduct").value;
+    let url = urls.urlQuickView + `?Id=${productID}&Photo=${photo}&Weight=${weight}&Quantity=${quantity}`;
+
+    const docs = fetch(url, {
+        method: 'GET',
+        headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+        }
+    })
+}

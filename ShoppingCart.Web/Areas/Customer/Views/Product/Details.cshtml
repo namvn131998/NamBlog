@@ -7,10 +7,13 @@
     ViewData["Title"] = "Product Detail";
     Layout = "_LayoutFE";
     var listThumbnail = _unitOfWork.UploadFileRepository.GetThumbnailsFromUploadFile(Model.MediaIds);
+    var photo = listThumbnail.FirstOrDefault().Thumbnail;
     var Cate = _unitOfWork.CategoryRepository.GetT(c => c.Id == Model.CategoryId);
 }
 <input type="hidden" id="hdcateName" value="@Cate.Name" />
 <input type="hidden" id="hdproName" value="@Model.Name" />
+<input type="hidden" id="hdId" value="@Model.Id" />
+<input type="hidden" id="hdPhoto" value="@photo" />
 <div class="mt-4">
     <div class="container">
         <!-- row -->
@@ -83,7 +86,7 @@
                         <div class="col-lg-4 col-md-5 col-6 d-grid">
                             <!-- button -->
                             <!-- btn -->
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" onclick="AddToCart();" class="btn btn-primary">
                                 <i class="feather-icon icon-shopping-bag me-2"></i>
                                 Add to cart
                             </button>

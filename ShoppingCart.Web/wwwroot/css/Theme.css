@@ -6944,6 +6944,9 @@ textarea.form-control-lg {
             border-top-width: var(--fc-list-group-border-width);
             margin-top: calc(var(--fc-list-group-border-width)*-1)
         }
+    .list-group-item img{
+        width: 64px;
+    }
 
 .list-group-horizontal {
     flex-direction: row
