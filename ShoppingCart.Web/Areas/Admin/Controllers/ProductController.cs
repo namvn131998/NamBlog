@@ -78,7 +78,7 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             return Json(new { result = "OK" });
         }
         [HttpGet]
-        public IActionResult _List(CartListRequestModel product)
+        public IActionResult _List(ProductListRequestModel product)
         {
             ProductVM productVM = new ProductVM();
             if (string.IsNullOrEmpty(product.searchValue))

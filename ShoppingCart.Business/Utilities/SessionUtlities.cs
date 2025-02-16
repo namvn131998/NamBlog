@@ -73,6 +73,10 @@ namespace ShoppingCart.Business.Utilities
         {
             return IsLogged(session) ? session.Get<LoggedUser>(SessionCurrentUserkey) : null;
         }
+        public static List<Cart> GetListCart (this ISession session)
+        {
+            return session.GetCart<List<Cart>>(SessionCart);
+        }
         #endregion
     }
 }

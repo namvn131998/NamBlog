@@ -78,19 +78,58 @@
 var urls = {
     urlQuickView: SiteConfig.gSiteAdrs + 'Customer/Cart/AddToCart',
 }
+//function AddToCart() {
+//    // Url for the request 
+//    let productID = document.getElementById("hdId").value;
+//    let photo = document.getElementById("hdPhoto").value;
+//    let weight = document.getElementsByClassName('btn-weight active')[0].textContent;
+//    let quantity = document.getElementById("quantityProduct").value;
+//    let url = urls.urlQuickView + `?Id=${productID}&Photo=${photo}&Weight=${weight}&Quantity=${quantity}`;
+
+//    const docs = fetch(url, {
+//        method: 'GET',
+//        headers: {
+//            Accept: 'application/json',
+//            'Content-Type': 'application/json',
+//        },
+//        success: function (data) {
+//            if (data.message == "OK") {
+//                updateCartQuantity();
+//            }
+//        }
+//    })
+//}
 function AddToCart() {
-    // Url for the request 
     let productID = document.getElementById("hdId").value;
     let photo = document.getElementById("hdPhoto").value;
-    let weight = document.getElementsByClassName('btn-weight active')[0].textContent;
+    let weightElement = document.getElementsByClassName('btn-weight active')[0];
     let quantity = document.getElementById("quantityProduct").value;
-    let url = urls.urlQuickView + `?Id=${productID}&Photo=${photo}&Weight=${weight}&Quantity=${quantity}`;
 
-    const docs = fetch(url, {
+    if (!weightElement) {
+        console.error("Không tìm thấy trọng lượng sản phẩm.");
+        return;
+    }
+
+    let weight = weightElement.textContent.trim();
+
+    let url = `${urls.urlQuickView}?Id=${encodeURIComponent(productID)}&Photo=${encodeURIComponent(photo)}&Weight=${encodeURIComponent(weight)}&Quantity=${encodeURIComponent(quantity)}`;
+
+    fetch(url, {
         method: 'GET',
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
         }
     })
+        .then(response => response.json())
+        .then(data => {
+            if (data.message === "OK") {
+                updateCartQuantity();
+            } else {
+                console.error("Lỗi từ server:", data);
+            }
+        })
+        .catch(error => {
+            console.error("Lỗi khi gửi request:", error);
+        });
 }

@@ -19,7 +19,7 @@ namespace ShoppingCart.Web.Areas.Customer.Controllers
         [HttpGet]
         public IActionResult ShopCart()
         {
-            var cart = HttpContext.Session.Get<List<Cart>>(SessionUtilities.SessionCart) ?? new List<Cart>();
+            var cart = HttpContext.Session.GetCart<List<Cart>>(SessionUtilities.SessionCart) ?? new List<Cart>();
             return View(cart);
         }
         [HttpGet]

@@ -74,24 +74,18 @@ function openQuickViewModal(productID) {
         }
     })
 }
-// custom button quantity
-let number = 1;
+function updateCartQuantity() {
+    let cartElement = document.getElementById('cart-quantity');
 
-document.getElementById("button-plus").addEventListener("click", () => {
-    number++;
-    document.getElementById("quantityProduct").value = number;
-});
-
-document.getElementById("button-minus").addEventListener("click", () => {
-    number--;
-    if (number >= 0)
-        document.getElementById("quantityProduct").value = number;
-    else {
-        number = 0;
-        document.getElementById("quantityProduct").value = number;
+    if (!cartElement) {
+        console.error("Không tìm thấy phần tử cart-quantity.");
+        return;
     }
-});
-//end
+
+    let countNumber = parseInt(cartElement.innerHTML) || 0; // Nếu giá trị không hợp lệ, mặc định là 0
+    cartElement.innerHTML = countNumber + 1;
+}
+
 
 
 
