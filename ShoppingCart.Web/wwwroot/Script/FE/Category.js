@@ -39,6 +39,7 @@ licategoryElements.forEach((element) => {
     element.addEventListener("click", function () {
         let id = parseInt(this.dataset.cateid)
         showCategory(id);
+        $("#cateID").val(id);
     });
 });
 

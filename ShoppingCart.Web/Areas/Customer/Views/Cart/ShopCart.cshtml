@@ -15,6 +15,7 @@
     }
     Subtotal = Item_Subtotal + ShippingFee;
 }
+<input id="count-quantity-card" type="hidden" value="@Model.Count" />
 <div class="mt-4">
     <div class="container">
         <!-- row -->
@@ -58,7 +59,7 @@
                                             <div class="ms-3">
                                                 <a class="text-inherit">
                                                     <h6 class="mb-0">@item.Name</h6>
-                                                    <span><small class="text-muted">@item.Weight</small></span>
+                                                    @* <span><small class="text-muted">@item.Weight</small></span> *@
                                                     <div class="mt-2 small lh-1">
                                                         <a class="text-decoration-none text-inherit" onclick="removeCartItem(@item.Id);">
                                                             <span class="me-1 align-text-bottom">
@@ -118,6 +119,10 @@
                         </div>
                         <div class="d-grid mb-1 mt-4">
                             <a>@Html.ActionLink("Go to Checkout", "Checkout", "Cart", new { area = "Customer" }, new { @class = "btn btn-primary btn-lg" })</a>
+                            <div class="login-redirect">
+                                Please login to checkout!
+                                <a class="link-underline" href="@Url.Action("Login","Home",new {area = "Customer"})">here</a>
+                            </div>
                         </div>
                     </div>
                 </div>
