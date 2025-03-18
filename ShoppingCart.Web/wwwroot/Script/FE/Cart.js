@@ -19,20 +19,22 @@ function removeCartItem(id) {
     });
 }
 // custom button quantity
+let count = document.getElementById("count-quantity-card").value;
 let number = 1;
-
-document.getElementById("button-plus").addEventListener("click", () => {
-    number++;
-    document.getElementById("quantityProduct").value = number;
-});
-
-document.getElementById("button-minus").addEventListener("click", () => {
-    number--;
-    if (number >= 0)
+if (count > 0) {
+    document.getElementById("button-plus").addEventListener("click", () => {
+        number++;
         document.getElementById("quantityProduct").value = number;
-    else {
-        number = 0;
-        document.getElementById("quantityProduct").value = number;
-    }
-});
+    });
+
+    document.getElementById("button-minus").addEventListener("click", () => {
+        number--;
+        if (number >= 0)
+            document.getElementById("quantityProduct").value = number;
+        else {
+            number = 0;
+            document.getElementById("quantityProduct").value = number;
+        }
+    });
+}
 //end

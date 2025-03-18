@@ -23,32 +23,33 @@ namespace ShoppingCart.Web.Areas.Customer.Controllers
             return View(cart);
         }
         [HttpGet]
-        public IActionResult AddTocart(Cart cart)
+        public IActionResult AddToCart(Cart cart)
         {
             var product = _unitOfWork.ProductRepository.GetT(p => p.Id == cart.Id);
-            var value = HttpContext.Session.GetCart<List<Cart>>(SessionUtilities.SessionCart);
+            if (product == null)
+            {
+                return Json(new { message = "Product not found" });
+            }
 
             cart.Name = product.Name;
             cart.Price = product.Price;
 
-            if (value == null)
+            var value = HttpContext.Session.GetCart<List<Cart>>(SessionUtilities.SessionCart) ?? new List<Cart>();
+
+            var existingItem = value.FirstOrDefault(p => p.Id == cart.Id);
+            if (existingItem != null)
             {
-                HttpContext.Session.Set(SessionUtilities.SessionCart, cart);
+                existingItem.Quantity += cart.Quantity;
+                HttpContext.Session.Set(SessionUtilities.SessionCart, value);
+                return Json(new { message = "Updated Quantity" });
             }
-            else
-            {
-                for (int i = 0; i < value.Count; i++)
-                {
-                    if (value[i].Id != cart.Id)
-                    {
-                        value.Add(cart);
-                        break;
-                    }
-                }
-                HttpContext.Session.Set<List<Cart>>(SessionUtilities.SessionCart, value);
-            }
+
+            value.Add(cart);
+            HttpContext.Session.Set(SessionUtilities.SessionCart, value);
+
             return Json(new { message = "OK" });
         }
+
         public IActionResult RemoveCartItem(int Id)
         {
             var value = HttpContext.Session.GetCart<List<Cart>>(SessionUtilities.SessionCart);

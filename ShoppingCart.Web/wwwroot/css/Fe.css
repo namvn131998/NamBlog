@@ -104,6 +104,14 @@
         right: 10px;
         left: 10px;
     }
+.card-category:hover {
+    border: 1px solid var(--fc-primary);
+    box-shadow: 0 5px 12px rgba(0,0,0,.12);
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    -o-transition: .2s
+}
 /*price filter css*/
 .price-container .price-content {
     display: flex;

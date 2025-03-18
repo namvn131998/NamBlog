@@ -20,13 +20,22 @@ namespace ShoppingCart.Web.Areas.Customer.Controllers
         }
         public IActionResult _Index(ProductListRequestModel product)
         {
+            if (product == null)
+            {
+                return BadRequest("Invalid product request");
+            }
+
             var products = _unitOfWork.ProductRepository.GetProducts(product);
-            ViewBag.CategoryName = _unitOfWork.CategoryRepository.GetT(c => c.Id == product.CategoryId).Name;
+
+            var category = _unitOfWork.CategoryRepository.GetT(c => c.Id == product.CategoryId);
+            ViewBag.CategoryName = category?.Name ?? "Unknown Category";  // Kiểm tra null
             ViewBag.CategoryId = product.CategoryId;
             ViewBag.PageSize = product.PageSize;
             ViewBag.minPrice = product.minPrice;
             ViewBag.maxPrice = product.maxPrice;
+
             return PartialView(products);
         }
+
     }
 }

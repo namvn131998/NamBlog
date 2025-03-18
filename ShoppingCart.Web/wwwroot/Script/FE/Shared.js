@@ -10,7 +10,7 @@ $(document).ready(function () {
     $('.category-slider').slick({
         dots: false,
         arrows: true,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         prevArrow: '<span class="slick-prev slick-arrow" style=""><i class="fa-solid fa-chevron-left"></i></span>',
         nextArrow: '<span class="slick-next slick-arrow" style=""><i class="fa-solid fa-chevron-right"></i></span>',
@@ -18,7 +18,7 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 6,
+                    slidesToShow: 5,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true
@@ -75,15 +75,17 @@ function openQuickViewModal(productID) {
     })
 }
 function updateCartQuantity() {
-    let cartElement = document.getElementById('cart-quantity');
+    let cartElements = document.getElementsByClassName('cart-quantity');
 
-    if (!cartElement) {
+    if (!cartElements) {
         console.error("Không tìm thấy phần tử cart-quantity.");
         return;
     }
 
-    let countNumber = parseInt(cartElement.innerHTML) || 0; // Nếu giá trị không hợp lệ, mặc định là 0
-    cartElement.innerHTML = countNumber + 1;
+    let countNumber = parseInt(cartElements[0].innerHTML) || 0; // Nếu giá trị không hợp lệ, mặc định là 0
+    for (var i = 0; i < cartElements.length; i++) {
+        cartElements[i].innerHTML = countNumber + 1;
+    };
 }
 
 
