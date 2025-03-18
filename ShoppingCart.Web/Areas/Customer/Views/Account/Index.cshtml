@@ -1,0 +1,21 @@
+﻿<div class="row">
+    @Html.RenderPartialAsync("Navigation/LeftMenu_Account.cshtml")
+    <div class="col-lg-9 col-md-8 col-12">
+        <div id="account_content" class="py-6 p-md-6 p-lg-10">
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function loadData(type){
+        $.ajax({
+            url: '@Url.Action("Index", "Account")',
+            type: 'GET',
+            data: {
+                Type: type
+            },
+            success: function (response) {
+                $("#account_content").html(response);
+            }
+        });
+    }
+</script>
