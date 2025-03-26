@@ -20,7 +20,7 @@ namespace ShoppingCart.DataAccess.Model
         public string? Newpassword { get; set; }
         [NotMapped]
         public string? Confirmpassword { get; set; }
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
         public string LastName { get; set; }
         public string? Email { get; set; }
         public string? Phone { get; set; }

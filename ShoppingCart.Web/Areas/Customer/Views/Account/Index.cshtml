@@ -1,18 +1,25 @@
-﻿<div class="row">
-    @Html.RenderPartialAsync("Navigation/LeftMenu_Account.cshtml")
-    <div class="col-lg-9 col-md-8 col-12">
-        <div id="account_content" class="py-6 p-md-6 p-lg-10">
+﻿@{
+    Layout = "_LayoutFE";
+}
+<div class="container">
+    <div class="row">
+        @await Html.PartialAsync("~/Views/Shared/Components/Sidebar/LeftMenu_Account.cshtml")
+        <div class="col-lg-9 col-md-8 col-12">
+            <div id="account_content" class="py-6 p-md-6 p-lg-10">
+            </div>
         </div>
     </div>
 </div>
 <script type="text/javascript">
-    function loadData(type){
+    function ChangeAccountType(type){
+        let url = "";
+        switch(type){
+            case 2: 
+                url = '@Url.Action("Account_Settings", "Account")';
+        }
         $.ajax({
-            url: '@Url.Action("Index", "Account")',
+            url: url,
             type: 'GET',
-            data: {
-                Type: type
-            },
             success: function (response) {
                 $("#account_content").html(response);
             }

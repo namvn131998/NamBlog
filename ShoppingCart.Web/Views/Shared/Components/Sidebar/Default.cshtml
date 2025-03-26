@@ -3,7 +3,8 @@
 @model List<SidebarItem>
 @{
     var sidebarItem = Model.Where(x => x.IsActive).OrderBy(x => x.DisplayPriority);
-    var userLogged = SessionUtilities.CurrentUser(ViewContext.HttpContext.Session);
+    var session = ViewContext.HttpContext.Session;
+    var userLogged = session != null ? SessionUtilities.CurrentUser(session) : null;
 }
 <div class="sidebar-section width-20">
 <nav>

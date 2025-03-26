@@ -22,7 +22,7 @@ namespace ShoppingCart.DataAccess.Helper
             this.Phone = reg.Phone;
             this.Photo = reg.Photo;
         }
-        public long UserId { get; set; }
+        public int UserId { get; set; }
         public string Username { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

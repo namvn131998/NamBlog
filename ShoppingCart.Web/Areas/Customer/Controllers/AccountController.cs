@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ShoppingCart.Business.Repositories;
 using ShoppingCart.Business.Utilities;
 using ShoppingCart.DataAccess.Helper;
@@ -14,28 +15,32 @@ namespace ShoppingCart.Web.Areas.Customer.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index(int Type)
+        [HttpGet]
+        public IActionResult Index()
         {
-             
-            string customview = string.Empty;
-            switch (Type)
+            return View();
+        }
+        [HttpGet]
+        public IActionResult Account_Settings()
+        {
+            var id = HttpContext.Session.Get<LoggedUser>(SessionUtilities.SessionCurrentUserkey)?.UserId;
+            if (id == null)
             {
-                case 1:
-                    customview = "account_orders";
-                    break;
-                case 2:
-                    customview = "account_settings";
-                    var user = HttpContext.Session.Get<LoggedUser>(SessionUtilities.SessionCurrentUserkey);
-                    return PartialView(customview, user);
-                default:
-                    break;
+                // Handle the case where the user is not logged in or the session is null
+                return RedirectToAction("Index");
             }
-            return PartialView(customview);
+
+            var user = _unitOfWork.RegistrationRepository.GetUserByID(id.Value);
+            return PartialView(user);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken] // protect the CSRF's attack
         public void UpdateUserAccount(Registration reg)
         {
             _unitOfWork.RegistrationRepository.Update(reg);
+            _unitOfWork.Save();
+
+            TempData["SuccessMessage"] = "Updated successful!";
         }
     }
 }

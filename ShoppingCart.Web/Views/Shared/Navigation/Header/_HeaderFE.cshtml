@@ -7,9 +7,10 @@
 @{
     CategoryVM categoryVM = new CategoryVM();
     categoryVM.categories = _unitOfWork.CategoryRepository.GetAll();
-    var islogged = SessionUtilities.IsLogged(ViewContext.HttpContext.Session);
-    var userLogged = SessionUtilities.CurrentUser(ViewContext.HttpContext.Session) ?? new LoggedUser();
-    var cart = SessionUtilities.GetListCart(ViewContext.HttpContext.Session) ?? new List<Cart>();
+    var session = ViewContext.HttpContext.Session;
+    var islogged =  SessionUtilities.IsLogged(session);
+    var userLogged = SessionUtilities.CurrentUser(session) ?? new LoggedUser();
+    var cart = SessionUtilities.GetListCart(session) ?? new List<Cart>();
  }
 <div class="header">
     <div class="py-5">

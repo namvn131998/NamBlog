@@ -3,6 +3,9 @@
 @{
 
 }
+<div>
+    <span>@TempData["SuccessMessage"]</span>
+</div>
 <div class="mb-6">
     <h2>Account Setting</h2>
 </div>
@@ -10,15 +13,15 @@
     <h5 class="mb-4">Account details</h5>
     <div class="row">
         <div class="col-lg-5">
-            @Html.BeginForm("UpdateUserAccount", "Account")
+            @using (Html.BeginForm("UpdateUserAccount", "Account"))
             {
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email" name="email" value="@Model.Email" disabled>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" value="@Model.UserName">
+                    <label for="UserName" class="form-label">UserName</label>
+                    <input type="text" class="form-control" id="UserName" name="UserName" value="@Model.UserName">
                 </div>
                 <div class="mb-3">
                     <label for="phone" class="form-label">Phone</label>
